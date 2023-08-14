@@ -1,10 +1,11 @@
-import { Header } from '@components/Header';
-import { Container } from './styles';
-import { Highlight } from '@components/Highlight';
+import { Button } from '@components/Button';
+import { EmptyList } from '@components/EmptyList';
 import { GroupCard } from '@components/GroupCard';
+import { Header } from '@components/Header';
+import { Highlight } from '@components/Highlight';
 import { useState } from 'react';
 import { FlatList } from 'react-native';
-import { EmptyList } from '@components/EmptyList';
+import { Container } from './styles';
 
 export function Groups() {
   const [groups, setGroups] = useState<string[]>([]);
@@ -23,6 +24,8 @@ export function Groups() {
           <EmptyList message="Que tal cadastrar a primeira turma?" />
         )}
       />
+
+      <Button title="Criar nova turma" />
     </Container>
   );
 }

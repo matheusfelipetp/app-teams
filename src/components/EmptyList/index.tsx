@@ -1,5 +1,4 @@
-import { Container } from '@components/Header/styles';
-import { Message } from './styles';
+import { Container, Message } from './styles';
 
 type EmptyListProps = {
   message: string;
