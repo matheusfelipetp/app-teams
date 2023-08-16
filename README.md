@@ -1,5 +1,5 @@
 # 🕹️ Teams
-Projeto mobile, cujo objetivo é o gerenciamento de grupos/times de pessoas.
+Projeto mobile, cujo objetivo é o gerenciamento de grupos e times.
 
 
 ## 💻 Tecnologias
